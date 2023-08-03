@@ -1,39 +1,95 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Yoga4Moms Online
 
-Welcome,
+Yoga4Moms Online is a website designed to encourage moms of all ages to participate in online Yoga sessions. The platform aims to help moms maintain their health through Yoga while providing a space to connect with like-minded individuals. Yoga4Moms Online offers information about upcoming Yoga sessions, online events, and more.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Yoga4MomsOnline](assets/images/doc/yoga4mompage.png)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **July 26th, 2023**
+## Features
 
-## Codeanywhere Reminders
+### Navigation Bar
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+![Navigation Bar](assets/images/doc/y4m_navbar.png)
 
-`python3 -m http.server`
+- The responsive navigation bar appears on all pages, allowing easy access to the Home page, Gallery, Meeting Times, and Join Us (signup) page.
+- Seamless navigation enhances the user experience across devices.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+### Landing Page
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+![Landing Page](assets/images/doc/y4mlanding_mark.png)
 
-`http_server`
+- The landing page features an engaging photograph with text overlay, effectively conveying the purpose and target audience of the website.
+- A captivating animation introduces users to Yoga4Moms Online.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Reasons to Join 'Yoga4Mom Online' Section
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+![Reasons to Engage](assets/images/doc/y4mreasons_section.png)
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- This section highlights the benefits of joining the Yoga online community, emphasizing the value of Yoga for overall well-being.
+- Compelling images depict moms of different ages practicing Yoga, inspiring users to consider Yoga as their fitness choice.
 
-To log into the Heroku toolbelt CLI:
+### Meeting Times Section
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![Meeting Times](assets/images/doc/y4m_meetingtimes.png)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- Users can easily access information about upcoming meeting times, locations, and session durations.
+- The section is regularly updated to keep users informed.
 
----
+### Gallery
 
-Happy coding!
+![Gallery](assets/images/doc/y4m_gallery.png)
+
+- The gallery showcases a diverse collection of images, providing users with a visual insight into Yoga sessions and events.
+- Users gain a better understanding of the organization's offerings.
+
+### Join Us Page
+
+![Join Us Page](assets/images/doc/y4m_join_us.png)
+
+- Users can register for Yoga4Moms Online, specifying their Yoga experience level and preferences.
+- The page captures essential user details for account creation.
+
+### Footer
+
+![Footer](assets/images/doc/y4m_footer.png)
+
+- The footer features links to relevant social media platforms, facilitating easy interaction and connection.
+- Copyright information indicates the site's currency and validity.
+
+## Features Left to Implement
+
+- Live chat support for users seeking immediate assistance.
+
+## Testing
+
+- Tested navigation links to ensure accurate routing and smooth user experience.
+- Successfully tested form GET and POST functionality.
+- Debugged code using inspect element to fine-tune styling.
+- Conducted extensive responsiveness testing across various devices.
+- Implemented masonry layout for the gallery and tested for consistency.
+- Verified correct linkage of footer elements to social media sites.
+
+## Validator Testing
+
+- HTML code was validated using the W3C validator and passed without errors.
+- CSS code was validated using the Jigsaw validator and found to be error-free.
+
+## Known Issues
+
+- Ongoing work to refine media queries for optimal homepage header display on smaller and medium screens.
+
+## Deployment
+
+- The website was deployed to GitHub Pages:
+  1. Navigated to the GitHub repository's Settings tab.
+  2. Selected the Master Branch as the source for deployment.
+  3. The deployment was confirmed with a ribbon display.
+
+Visit the live site here: [Yoga4Moms Online](https://irishcoders.github.io/yogamomsonline/)
+
+# Credits
+
+- Fonts from Google Fonts were used for the Home page typography.
+- Form validation guidance was sourced from the Love Running Final Challenge.
+- Icons in the Reasons section, footer, and Join Us pages were provided by Font Awesome.
+- The website design was inspired by CodeInstitute's Love Running Tutorials.
+- Images on the home and Join Us pages were sourced from PEXELS ([www.pexels.com](https://www.pexels.com)) and iSTOCKPHOTO ([www.istockphoto.com](https://www.istockphoto.com)).

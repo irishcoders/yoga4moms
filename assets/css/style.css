@@ -1,0 +1,543 @@
+@import url('https: //fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Playfair+Display+SC&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #33333a;
+    background-color: darksalmon;
+}
+
+/* heading and logo */
+
+h1,
+h2 {
+    font-family: 'Playfair Display', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #33333a;
+}
+
+#logo {
+    float: left;
+    font-size: 250%;
+    margin-left: 30px;
+}
+
+/* Navigation area */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu,
+#logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #33333a;
+}
+
+.active {
+    border-bottom: 1px solid #33333a;
+}
+
+/* head-image and cover text */
+
+#head-container {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+
+}
+
+#cover-text,
+#cover-text h2 {
+    color: #fff;
+    text-align: center;
+}
+
+#cover-text h2 {
+    color: #33333a;
+}
+
+#head-image {
+    height: 500px;
+    width: 100%;
+    background: url(../images/stones.jpeg) no-repeat center center;
+
+
+    /* This animates the zoom effect for the head-image */
+
+    animation-name: head-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+
+}
+
+/* this creates the zoom effect for the head image */
+
+@keyframes head-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+#cover-text {
+    font-size: 100%;
+    font-family: 'Playfair Display', sans-serif;
+    letter-spacing: 3px;
+
+    width: 300px;
+    height: 200px;
+    padding-top: 45px;
+    padding-left: 10px;
+
+    background-color: rgba(241, 109, 107, 0.7);
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+
+/* Yoga-reason section */
+
+#yoga-reason {
+    height: 600px;
+    clear: both;
+}
+
+#reason {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 200%;
+}
+
+#left-pane {
+    padding-top: 20px;
+    width: 33%;
+    float: left;
+}
+
+#right-pane {
+    padding-top: 20px;
+    width: 33%;
+    float: right;
+}
+
+#center-pane {
+    padding-top: 30px;
+    width: 33%;
+    margin: 0 auto;
+}
+
+hr {
+    border-top: 1px solid #33333a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left-pane-heading {
+    width: 60%;
+    float: right;
+    line-height: 15px;
+    clear: both;
+    margin-bottom: 52px;
+}
+
+.right-pane-heading {
+    width: 60%;
+    float: left;
+    line-height: 15px;
+    clear: both;
+    margin-bottom: 52px;
+    margin-top: 11px;
+
+}
+
+.left-pane-heading h2 {
+    font-size: 125%;
+    margin: 0;
+
+}
+
+.right-pane-heading h2 {
+    text-align: right;
+    font-size: 125%;
+    margin: 0;
+
+}
+
+.right-pane-heading>p {
+    text-align: right;
+}
+
+#center-container {
+    width: 330px;
+    min-height: 200px;
+    border-style: solid;
+    border-color: darksalmon;
+    border-width: 1px;
+    margin: 0 auto;
+    padding-top: 0;
+}
+
+#center-cover-bg {
+    background: url(../images/black_woman_yoga.jpeg);
+
+}
+
+#center-cover-bg2 {
+    background: url(../images/mom_child_cucumber_yoga.jpeg);
+
+}
+
+#center-cover-bg3 {
+    background: url(../images/woman_yoga_mat.webp);
+
+}
+
+#center-container .center-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 330px;
+    height: 200px;
+    overflow: hidden;
+}
+
+/* Meeting times */
+#meetings {
+    background-image: url(../images/darkcloud_with_moon.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+#meetings div {
+    color: #fafafa;
+    background-color: rgb(0, 0, 0, .6);
+    width: 50%;
+    height: 150px;
+    float: left;
+    padding: 25px 0 0 10px;
+    text-align: center;
+    border: 2px solid darksalmon;
+    box-sizing: border-box;
+}
+
+#meetings h2,
+#meetings p {
+    color: #fafafa;
+    text-align: center;
+    background-color: rgba(60, 60, 60, 0.6);
+    border: 1px solid darksalmon;
+    border-right: 1px;
+}
+
+/* footer section */
+
+footer {
+    height: 100px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 200%;
+    margin: 1%;
+    padding: 5%;
+    color: #33333a;
+}
+
+footer p {
+    text-align: center;
+}
+
+/* Gallery photo section */
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photos>img {
+    width: 100%;
+}
+
+/* Form */
+
+.form-section {
+    clear: left;
+    background: url('../images/yoga-full-screen3.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+}
+
+.signup-form {
+    margin: 150px 10% 0 0;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    max-height: fit-content;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
+
+.signup-form>h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+input::placeholder {
+    color: silver;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: darksalmon;
+}
+
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #f16c6b;
+    color: #fafafa;
+    display: block;
+}
+
+.reset-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    font-size: 100%;
+    background-color: white;
+    color: black;
+}
+
+.join-button,
+.reset-button {
+    display: inline-block;
+}
+
+#user-experience {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: darksalmon;
+}
+
+legend {
+    font-size: inherit;
+    text-transform: uppercase;
+}
+
+
+
+
+/* Media Queries (For page size across differen screen types */
+
+/* Code below is for larger to medium screen size from 1200px wide and down */
+
+@media screen and (max-width: 1200px) {
+    #yoga-reason {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #reason {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #left-pane,
+    #right-pane {
+        width: 100%;
+        float: left;
+        margin: 0;
+    }
+
+    #center-pane {
+        width: 100%;
+        clear: both;
+        float: left;
+        padding: 0;
+    }
+
+    #meetings>div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
+}
+
+/* Media query for medium screen size of 950px wide and below */
+
+@media screen and (max-width: 950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #cover-text {
+        left: 0;
+    }
+
+    #yoga-reason {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .left-pane-heading,
+    .right-pane-heading {
+        width: inherit;
+    }
+
+    .left-pane-heading h2,
+    .right-pane-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-pane-heading p,
+    .right-pane-heading p {
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    #photos {
+        column-count: 3;
+    }
+
+    /* Gallery form styles */
+    .form-section {
+        padding: 10px;
+    }
+
+    .signup-form {
+        left: 5%;
+        max-width: 90%;
+    }
+
+    .text-input {
+        height: 30px;
+        margin: 5px 0 10px 0;
+        padding: 5px;
+    }
+
+    .join-button,
+    .reset-button {
+        padding: 12px 24px;
+        font-size: 90%;
+    }
+
+}
+
+/* Media screen for small screen sizes 800px wide and down */
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
+    }
+
+    .signup-form {
+        margin: 30px auto 0;
+        left: 2%;
+        max-width: 94%;
+    }
+
+    .text-input {
+        margin: 3px 0 8px 0;
+        padding: 5px;
+    }
+
+    .join-button,
+    .reset-button {
+        padding: 10px 20px;
+        font-size: 80%;
+    }
+
+}
+
+/* Additional media query for smaller screens within the form media query */
+@media screen and (max-width: 600px) {
+    .signup-form {
+        margin: 50px auto 0;
+        left: 5%;
+        max-width: 90%;
+        padding: 20px;
+    }
+
+    .text-input {
+        height: 30px;
+        margin: 5px 0 10px 0;
+        padding: 5px;
+    }
+
+    .join-button,
+    .reset-button {
+        padding: 12px 24px;
+        font-size: 90%;
+    }
+}
