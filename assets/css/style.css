@@ -25,14 +25,14 @@ h2 {
 
 #logo {
     float: left;
-    font-size: 250%;
+    font-size: 2rem;
     margin-left: 30px;
 }
 
 /* Navigation area */
 
 #menu {
-    font-size: 110%;
+    font-size: 1rem;
     letter-spacing: 4px;
 }
 
@@ -392,6 +392,11 @@ legend {
 /* Code below is for larger to medium screen size from 1200px wide and down */
 
 @media screen and (max-width: 1200px) {
+
+    #logo {
+        max-width: fit-content;
+    }
+
     #yoga-reason {
         width: 65%;
         height: 1200px;
@@ -539,5 +544,27 @@ legend {
     .reset-button {
         padding: 12px 24px;
         font-size: 90%;
+    }
+
+    #menu,
+    #logo {
+        text-align: center;
+        display: block;
+    }
+
+    #logo {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    #menu li {
+        font-size: 55%;
+        margin: 0 5px;
+    }
+
+    #reason {
+        text-align: center;
+        margin: 20px 0;
+        font-size: 150%;
     }
 }
