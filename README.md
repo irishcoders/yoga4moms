@@ -65,24 +65,26 @@ Yoga4Moms Online is a website designed to encourage moms of all ages to particip
 - Successfully tested form GET and POST functionality.
 - Debugged code using inspect element to fine-tune styling.
 - Conducted extensive responsiveness testing across various devices.
+- Tested using LightHouse to determine Assesibility, Performance and SEO.
 - Implemented masonry layout for the gallery and tested for consistency.
 - Verified correct linkage of footer elements to social media sites.
 
-## Validator Testing
+## Debugging
 
-- HTML code was validated using the W3C validator and passed without errors.
-- CSS code was validated using the Jigsaw validator and found to be error-free.
-
-## Known Issues
+- HTML code was validated using the [W3C validator](<https://validator.w3.org/nu/#textarea>) and passed without errors.
+- CSS code was validated using the [Jigsaw validator](<https://jigsaw.w3.org/css-validator/validator>) and found to be error-free.
+  
+## Unfixed Bugs
 
 - Ongoing work to refine media queries for optimal homepage header display on smaller and medium screens.
 
 ## Deployment
 
-- The website was deployed to GitHub Pages:
-  1. Navigated to the GitHub repository's Settings tab.
-  2. Selected the Master Branch as the source for deployment.
-  3. The deployment was confirmed with a ribbon display.
+  The website was deployed to GitHub Pages using the following steps:
+
+  1. Navigate to the GitHub repository's Settings tab.
+  2. Select the Master Branch as the source for deployment.
+  3. The deployment will be confirmed with a ribbon display.
 
 Visit the live site here: [Yoga4Moms Online](https://irishcoders.github.io/yogamomsonline/)
 
@@ -92,4 +94,4 @@ Visit the live site here: [Yoga4Moms Online](https://irishcoders.github.io/yogam
 - Form validation guidance was sourced from the Love Running Final Challenge.
 - Icons in the Reasons section, footer, and Join Us pages were provided by Font Awesome.
 - The website design was inspired by CodeInstitute's Love Running Tutorials.
-- Images on the home and Join Us pages were sourced from PEXELS ([www.pexels.com](https://www.pexels.com)) and iSTOCKPHOTO ([www.istockphoto.com](https://www.istockphoto.com)).
+- Images on the home and Join Us pages were sourced from PEXELS ([www.pexels.com](<https://www.pexels.com>)) and iSTOCKPHOTO ([www.istockphoto.com](https://www.istockphoto.com)).

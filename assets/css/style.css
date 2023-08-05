@@ -1,4 +1,4 @@
-@import url('https: //fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Playfair+Display+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Playfair+Display+SC&display=swap');
 
 * {
     margin: 0;
@@ -238,6 +238,7 @@ hr {
     width: 100%;
     height: auto;
     overflow: hidden;
+    padding: 10px 0 10px 0;
 }
 
 #meetings div {
@@ -257,9 +258,9 @@ hr {
     color: #fafafa;
     text-align: center;
     background-color: rgba(60, 60, 60, 0.6);
-    border: 1px solid darksalmon;
     border-right: 1px;
 }
+
 
 /* footer section */
 
